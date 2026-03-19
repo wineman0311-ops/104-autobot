@@ -1,0 +1,57 @@
+# ── Secrets & auth (NEVER commit these) ─────────────────────────────────────
+.env
+corp_auth_state.json
+auth_state.json
+*_storage.json
+*_session.json
+mfa_session.json
+mfa_storage.json
+corp_mfa_*.json
+
+# ── Databases ────────────────────────────────────────────────────────────────
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Screenshots & debug output ───────────────────────────────────────────────
+*.png
+*.jpg
+*.jpeg
+*.html
+*.txt
+logs/
+
+# ── Python cache ─────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# ── Exploration / debug scripts (not needed in prod) ─────────────────────────
+explore_*.py
+probe_*.py
+dump_*.py
+search_*.py
+xhr_probe.py
+find_notif_api.py
+auth_verify.py
+check_pw.py
+list_dir.py
+net_test*.py
+pw_test.py
+smoke_test*.py
+local_test.py
+local_*.py
+login_test*.py
+read_*.py
+warden_test.py
+e2e_test.py
+
+# ── Misc ─────────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db

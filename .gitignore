@@ -18,8 +18,16 @@ corp_mfa_*.json
 *.jpg
 *.jpeg
 *.html
-*.txt
 logs/
+
+# ── Text output files (but NOT requirements.txt or README.md) ────────────────
+run_out.txt
+local_out.txt
+smoke_out.txt
+local_err.txt
+*_output.txt
+portal_links.txt
+signin_dom_log.txt
 
 # ── Python cache ─────────────────────────────────────────────────────────────
 __pycache__/
@@ -41,14 +49,11 @@ xhr_probe.py
 find_notif_api.py
 auth_verify.py
 check_pw.py
-list_dir.py
 net_test*.py
 pw_test.py
 smoke_test*.py
 local_test.py
-local_*.py
 login_test*.py
-read_*.py
 warden_test.py
 e2e_test.py
 
